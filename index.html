@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oscar Guevara – Portafolio</title>
+  <link rel="icon" href="data:," />
+  <style>
+    :root { --bg:#0b0e14; --fg:#e6e6e6; --muted:#cfcfcf33; --card:#121621; }
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;background:var(--bg);color:var(--fg)}
+    .wrap{max-width:960px;margin:auto;padding:24px}
+    .card{background:var(--card);border:1px solid #23283a;border-radius:16px;padding:24px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    .center{text-align:center}
+    h1,h2{margin:.4em 0} hr{border:none;border-top:1px solid var(--muted);margin:24px 0}
+    table{width:100%;border-collapse:collapse} td,th{padding:8px 0;text-align:left;border-bottom:1px solid #1f2435}
+    .badges img{margin:4px 6px 0 0;vertical-align:middle}
+    a{color:#8ab4ff;text-decoration:none} a:hover{text-decoration:underline}
+    .grid{display:grid;gap:16px}
+    @media (min-width:720px){.grid{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card center">
+      <img src="ilustracion.svg" alt="Ilustración de perfil de Oscar Guevara" width="160" />
+      <h1>Hola! 👋 Soy Oscar Guevara</h1>
+      <h3>Estudiante de Ing. de Software | Desarrollador Frontend | Entusiasta UX/UI</h3>
+      <p>Soy un desarrollador de software de Ecuador 🇪🇨, actualmente estudiando en la <b>Universidad Técnica de Ambato</b>.
+      Mi pasión es crear interfaces de usuario intuitivas y atractivas, combinando el diseño UX/UI con un código frontend limpio y eficiente.</p>
+      <p>(¡Y sí, la ilustración es por <i>Harry Potter</i>! ⚡)</p>
+    </div>
+
+    <div class="card">
+      <h2>🛠️ Tecnologías y Herramientas</h2>
+      <div class="badges">
+        <b>Frontend:</b><br/>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+        <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+        <br/><br/><b>Backend:</b><br/>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+        <br/><br/><b>UX/UI:</b><br/>
+        <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
+        <br/><br/><b>Aprendiendo:</b><br/>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>💼 Proyectos Destacados</h2>
+        <h4>Plataforma Estudiantil</h4>
+        <p>Gestión y consulta de información para estudiantes. <i>React, Node.js, CSS</i></p>
+        <h4>Plataforma de Seguros</h4>
+        <p>Administración y gestión de pólizas. <i>React, Node.js, JavaScript</i></p>
+      </div>
+
+      <div class="card">
+        <h2>🔗 Repos en los que trabajé</h2>
+        <table>
+          <tr><th>Proyecto</th><th>Enlace</th></tr>
+          <tr><td><b>Productos</b> – CRUD de productos en equipo</td><td><a href="https://github.com/jonathan-jiron/Productos">Ver repositorio</a></td></tr>
+          <tr><td><b>Plataforma de Seguros</b> – Gestión de pólizas, clientes y pagos</td><td><a href="https://github.com/MateoAuz/PlataformaSeguros">Ver repositorio</a></td></tr>
+          <tr><td><b>Tower Defense</b> – Juego en Python con Pygame</td><td><a href="https://github.com/MateoAuz/TowerDefense">Ver repositorio</a></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🌱 Mis Metas</h2>
+      <ul>
+        <li>Arquitecturas modernas y escalables.</li>
+        <li>Buenas prácticas: Clean Code, SOLID.</li>
+        <li>CI/CD: Docker, Jenkins, GitHub Actions.</li>
+        <li>Testing: Jest, React Testing Library.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>📫 Contacto</h2>
+      <p><b>Email:</b> <a href="mailto:mauriguevara12@gmail.com">mauriguevara12@gmail.com</a><br/>
+         <b>Teléfono:</b> 0987714718</p>
+    </div>
+  </div>
+</body>
+</html>
